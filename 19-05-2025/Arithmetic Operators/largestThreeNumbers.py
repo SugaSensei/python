@@ -19,4 +19,11 @@ elif b <= a and b <= c:
 else:
     print("smallet number is :", c)
 
-    
+#middle
+if (a >=b and a <= c) or (a <= b and a >= c):
+    print("middle number is :", a)
+elif(b >=a and b <= c) or (b <= a and b >= c):
+    print("middle number is :", b)
+else:
+    print("middle number is :", c)
+ 
